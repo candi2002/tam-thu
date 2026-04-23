@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-
-<meta charset="UTF-8">
-<title>Tâm thư</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tâm Thư</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<div class="login">
+  <div class="bg-texture"></div>
 
-<h2>Mở tâm thư</h2>
+  <main class="container">
 
-<input id="user" placeholder="Tên">
-<input id="pass" type="password" placeholder="Mật khẩu">
+    <!-- LOGIN -->
+    <section class="login-panel" id="loginPanel">
+      <div class="seal">✦</div>
+      <h1>Tâm Thư</h1>
+      <p class="subtitle">Nhập tên và mật khẩu để mở thư</p>
+      <div class="form">
+        <div class="field">
+          <label for="user">Tên</label>
+          <input id="user" type="text" placeholder="an / binh / phong" autocomplete="off" />
+        </div>
+        <div class="field">
+          <label for="pass">Mật khẩu</label>
+          <input id="pass" type="password" placeholder="••••" />
+        </div>
+        <p class="error-msg" id="errorMsg"></p>
+        <button onclick="login()">Mở Thư ✦</button>
+      </div>
+    </section>
 
-<button onclick="login()">Mở thư</button>
+    <!-- LETTER PAGE -->
+    <section class="letter-page" id="letterPage">
+      <div class="paper">
+        <div class="paper-deco">✦</div>
+        <p id="letterText"></p>
+      </div>
+      <button class="back-btn" onclick="resetAll()">← Quay lại</button>
+    </section>
 
-</div>
+  </main>
 
-
-<div class="envelope">
-
-<div class="flap"></div>
-
-<div class="letter">
-<div id="letterText"></div>
-</div>
-
-</div>
-
-
-<script src="app.js"></script>
-
+  <script src="app.js"></script>
 </body>
 </html>
