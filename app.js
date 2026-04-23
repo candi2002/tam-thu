@@ -5,10 +5,9 @@ const USERS = {
   thai:  { name: 'Phạm Thành Thái', pass: '8424', letter: 'letters/thai.txt' },
   nhi: { name: 'Vòng Tuyết Nhi', pass: '644', letter: 'letters/nhi.txt' },
   vinh: { name: 'Nguyễn Thành Vỉnh', pass: '8464', letter: 'letters/vinh.txt' },
-  // an: { name: 'Lê Vạn An', pass: '001', letter: 'letters/vanan.txt' },
   anh: { name: 'Trịnh Ngọc Tử Anh', pass: '264', letter: 'letters/tuanh.txt' },
   // 
-  thien: { name: 'Trần Duy Thiện', pass: '001', letter: 'letters/a.txt' },
+  thien: { name: 'Trần Duy Thiện', pass: '84636', letter: 'letters/thien.txt' },
   khang: { name: 'Nguyễn Hồng Khang', pass: '001', letter: 'letters/khang.txt' },
   kieu: { name: 'Lê Duyên Kiều', pass: '001', letter: 'letters/kieu.txt' },
   // : { name: '', pass: '001', letter: 'letters/.txt' },
