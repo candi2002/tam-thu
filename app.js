@@ -8,7 +8,7 @@ const USERS = {
   anh: { name: 'Trịnh Ngọc Tử Anh', pass: '264', letter: 'letters/tuanh.txt' },
   // 
   thien: { name: 'Trần Duy Thiện', pass: '84636', letter: 'letters/thien.txt' },
-  khang: { name: 'Nguyễn Hồng Khang', pass: '001', letter: 'letters/khang.txt' },
+  khang: { name: 'Nguyễn Hồng Khang', pass: '54264', letter: 'letters/khang.txt' },
   kieu: { name: 'Lê Duyên Kiều', pass: '001', letter: 'letters/kieu.txt' },
   // : { name: '', pass: '001', letter: 'letters/.txt' },
   // : { name: '', pass: '001', letter: 'letters/.txt' },
